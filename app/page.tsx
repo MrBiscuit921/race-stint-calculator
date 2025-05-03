@@ -149,7 +149,7 @@ export default function RaceSchedule() {
               <Label htmlFor="raceName">Race Name</Label>
               <Input
                 id="raceName"
-                placeholder="8 Hours Of Monza Drivers List"
+                placeholder="24 Hours Of Spa Drivers List"
                 value={raceName}
                 onChange={(e) => setRaceName(e.target.value)}
               />
